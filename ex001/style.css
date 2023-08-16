@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*
+
+Em	resumo:
+
+Quanto	mais	específico	é	o	nosso	seletor,	maior	sua	pontuação	no	nível	de	especificidade	do	CSS.
+Portanto	 devemos	 sempre	 trabalhar	 com	 uma	 baixa	 especificidade,	 para	 que	 não	 seja	 impossível sobrescrever	valores	quando	necessário	em	uma	situação	específica.
+
+*/
+
+body p	{	/*	Seletor	de	tag	+	outro	seletor	de	tag	=	2	pontos	*/
+				color:	brown;
+}
+p	{	/*	Pontuação	1	*/
+				color:	blue;
+}
